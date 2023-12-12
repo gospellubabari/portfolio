@@ -1,0 +1,94 @@
+body{
+  background-color: rgb(17, 13, 13);
+}
+header{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+main{
+  width: 100%;
+  min-height: 400px;
+  margin-top: 50px;
+  /* margin-bottom: auto; */
+}
+.image-slot1{
+  /* flex: 30%; */
+  width: 45%;
+  flex-wrap: wrap;
+}
+.image-slot2{
+   /* flex: 30%;  */
+  background-color: #fff;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  margin-right: 150px;
+}
+img{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px; 
+}
+
+footer{
+  background-color: red;
+  height: 50px;
+}
+.container{
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.main-container{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  font-size: 40px;
+  font-weight: 900;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ccc;
+}
+ nav a{
+  color: rgba(255, 123, 0, 0.788);
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+} 
+h1{
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+h2{
+  color: orange;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+}
+h2:hover{
+  color: gold;
+}
+p{
+  color: #fff;
+  font-size: 17px;
+  
+}
+button{
+  background-color: rgba(255, 123, 0, 0.788);
+  height: 30px;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+button:hover{
+  background-color: white;
+  color: orange;
+  cursor: pointer;
+}
